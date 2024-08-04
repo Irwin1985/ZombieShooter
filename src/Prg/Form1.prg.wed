@@ -1,0 +1,101 @@
+DESIGNERSTART = Form,Form,BasicForm
+GUID=8EB831A0-0DAF-4032-ACAB-18B0EB7B0E4A
+Name=BasicForm
+StartPosition=CenterScreen
+Text=Zombie Shooter Game
+Location=100 , 100
+ClientSize=940 , 700
+BackColor=64,64,64
+KeyDown=OnKeyDown
+KeyUp=OnKeyUp
+ControlPrefix=o
+CallPreResumeLayout=No
+CallSuperInitialize=No
+UseGrid=Yes
+GridX=8
+GridY=8
+SUBCONTROLSSTART
+  
+  CONTROL=System.Windows.Forms.Label
+  GUID=2F1A1E0C-7E6B-4790-835B-014BE336F1DF
+  AutoSize=True
+  Name=txtPause
+  Text=PAUSED
+  Location=324 , 308
+  Size=293 , 84
+  ForeColor=255,255,255
+  BackColor=Color.Transparent
+  Font=Microsoft Sans Serif, 48.0
+  TabIndex=5
+  Visible=False
+  
+  CONTROL=System.Windows.Forms.ProgressBar
+  GUID=94CAF222-D80E-4058-9C08-01B1256948F2
+  Name=HealthBar
+  Location=696 , 16
+  Size=232 , 23
+  TabIndex=3
+  Value=100
+  
+  CONTROL=System.Windows.Forms.Label
+  GUID=B07EDECB-370B-4022-8FC2-A580F63C7656
+  AutoSize=True
+  Name=txtHealth
+  Text=Health:
+  Location=624 , 16
+  Size=69 , 27
+  ForeColor=255,255,255
+  BackColor=Color.Transparent
+  Font=Microsoft Sans Serif, 14.25
+  TabIndex=2
+  
+  CONTROL=System.Windows.Forms.Label
+  GUID=7818D019-4F3B-4AF0-83CC-39D854BDF06D
+  AutoSize=True
+  Name=txtScore
+  Text=Kills: 0
+  Location=280 , 16
+  Size=65 , 27
+  ForeColor=255,255,255
+  BackColor=Color.Transparent
+  Font=Microsoft Sans Serif, 14.25
+  TabIndex=1
+  
+  CONTROL=System.Windows.Forms.Label
+  GUID=A6B519EC-019E-4C70-AD1D-49538AF7E142
+  AutoSize=True
+  Name=txtAmmo
+  Text=Ammo: 0
+  Location=24 , 16
+  Size=85 , 27
+  ForeColor=255,255,255
+  BackColor=Color.Transparent
+  Font=Microsoft Sans Serif, 14.25
+  TabIndex=0
+  
+  CONTROL=System.Windows.Forms.PictureBox
+  GUID=00B4AE6E-8B6D-45C8-92F5-80AD3112CDD6
+  BorderStyle=None
+  Name=Player
+  SizeMode=AutoSize
+  Location=434 , 576
+  Size=73 , 102
+  BackColor=Color.Transparent
+  
+  CONTROL=System.Windows.Forms.Timer
+  GUID=30AC9F78-C5D0-4E9B-BAF6-1647EC972278
+  Enabled=True
+  Interval=33
+  Name=GameTimer
+  Tick=MainTimerEvent
+  
+  CONTROL=System.Windows.Forms.Timer
+  GUID=75F2F651-53A8-44D1-BF84-E643C03B6743
+  Interval=500
+  Name=TimerPause
+  Tick=TimerPauseTick
+
+SUBCONTROLSEND
+DESIGNEREND = BasicForm
+
+
