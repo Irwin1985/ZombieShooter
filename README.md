@@ -13,4 +13,10 @@ This repository showcases a basic 2D zombie shooter game implemented in X#. It s
 This project provides a foundation for exploring more advanced game development concepts in X#, such as object-oriented programming, graphics, sound, and user interface design.
 
 ## Screenshots
+
 ![GamePlay](images/Screenshot_1.png)
+![Dead](images/Screenshot_2.png)
+![FormDesigner](images/Screenshot_3.png)
+
+## Credits
+- [Make a Top Down Zombie Shooter Game in Windows Form and C#](https://youtu.be/TxmhaSTRav4?si=XR_pYvrttxylmEQG)
